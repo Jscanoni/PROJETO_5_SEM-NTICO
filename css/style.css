@@ -110,11 +110,16 @@ a:hover{
     border: 1px solid #ddd;
 }
 
-#search-bar[type="submit"]{
+#search-bar input[type="submit"]{
     cursor: pointer;
     background-color: #ff6f00;
     color: #fff;
     border: none;
+    transition: background-color 0.3s;
+}
+
+#search-bar input[type="submit"]:hover {
+    background-color: #f8b154;
 }
 
 #categories li{
