@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Koenigsegg</title>
 </head>
 <body>
-    <h1>oi</h1>
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <h2><img id="logo" src="img/logo.png" alt=""></h2>
+                <ul id="nav-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CATEGORIAS</a></li>
+                    <li><a href="#">CONTATOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="img/ccr.jpeg" alt="Carro Koenigsegg ccr">
+                <h3 class="title"><a href="#">Koenigsegg ccr</a></h3>
+                <p class="description">
+                    O Koenigsegg CCR é um automóvel superesportivo produzido pela marca sueca Koenigsegg entre 2004 e 2006. Encontra-se no 4º lugar na lista dos carros mais rápidos do mundo.
+                </p>
+                <p class="author">Por: Julio Scanoni</p>
+                <a href="https://pt.wikipedia.org/wiki/Koenigsegg_CCR">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="img/ccx.jpeg" alt="Carro Koenigsegg ccx">
+                <h3 class="title"><a href="#">Koenigsegg ccx</a></h3>
+                <p class="description">
+                    O Koenigsegg CCX é um superesportivo produzido pela montadora sueca Koenigsegg como o sucessor do CCR, entre 2006 e 2010. O CCX foi criado para cumprir com o regulamento dos Estados Unidos e às exigências do mercado.
+                </p>
+                <p class="author">Por: Julio Scanoni</p>
+                <a href="https://pt.wikipedia.org/wiki/Koenigsegg_CCX">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="img/AgeraRS.jpg" alt="Carro Koenigsegg Agera Rs">
+                <h3 class="title"><a href="#">Koenigsegg Agera RS</a></h3>
+                <p class="description">
+                    Agera é um hipercarro de motor central e tração traseira fabricado pela Koenigsegg. Sucessor do CCX, o nome "Agera" vem do verbo sueco "agera", que significa "agir" ou "realizar alguma ação". Foi eleito o hipercarro do ano pela revista Top Gear Magazine.
+                </p>
+                <p class="author">Por: Julio Scanoni</p>
+                <a href="https://pt.wikipedia.org/wiki/Koenigsegg_Agera">Ler mais</a>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no blog"/>
+                    <input type="submit" value="Buscar"/>
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Categorias</h4>
+                <nav>
+                    <li><a href="#">Koenigsegg</a></li>
+                    <li><a href="#">Koenigsegg</a></li>
+                    <li><a href="#">Koenigsegg</a></li>
+                    <li><a href="#">Koenigsegg</a></li>
+                    <li><a href="#">Koenigsegg</a></li>
+                </nav>
+            </section>
+            <section id="tags">
+                <h4>Tags</h4>
+                <div id="tags-container">
+                    <a href="#">Koenigsegg</a>
+                    <a href="#">Koenigsegg</a>
+                    <a href="#">Koenigsegg</a>
+                    <a href="#">Koenigsegg</a>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>Os melhores carros do mundo</p>
+        <p>2024 &copy;Koenigsegg</p>
+    </footer>
 </body>
 </html>
